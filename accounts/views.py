@@ -1,6 +1,7 @@
 from rest_framework import viewsets, permissions
 from .models import Account
 from .serializers import AccountSerializer
+# it is view for account model
 
 class AccountViewSet(viewsets.ModelViewSet):
     serializer_class = AccountSerializer
